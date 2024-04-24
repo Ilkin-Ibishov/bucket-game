@@ -5,7 +5,6 @@ export default function ScoreTable({ score, lifeCount }) {
     <>
       <div className="absolute top-5 left-[85%] text-3xl font-bold text-green-700">
         <p>Score: {score}</p>
-        {/* Use map to create an array of JSX elements */}
         <div className='flex flex-row gap-4'>
         {lifeCount.map((index) => (
           <div key={index}>
